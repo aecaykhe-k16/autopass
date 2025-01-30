@@ -1,0 +1,21 @@
+{
+  "name": "AutoPass Đánh giá khảo sát nhanh IUH",
+  "version": "1.1",
+  "manifest_version": 3,
+  "description": "Tiện ích này giúp bạn tự động điền thông tin vào các mẫu khảo sát của trường IUH, tiết kiệm thời gian và công sức.",
+  "author": "Kenzn2 <https://www.fb.com/kenzn2>",
+  "co-author": "Kugacter <https://github.com/longnguyen-cyber>",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["contextMenus", "activeTab", "scripting"],
+  "host_permissions": ["https://sv.iuh.edu.vn/*"],
+  "icons": {
+    "16": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  },
+  "action": {
+    "default_icon": "logo.png"
+  }
+}
